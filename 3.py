@@ -6,3 +6,4 @@ def transpose(matrix):
     for i in range(m):
         for j in range(n):
             result[j][i] = matrix[i][j]
+     return result
